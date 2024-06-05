@@ -1,0 +1,18 @@
+@use 'variaveis';
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corDeFundo;
+
+    &__container{
+        padding: 8px 36px;
+        display: flex;
+        justify-content: right;
+    }
+
+    &__links{
+        display: flex;
+    }
+}

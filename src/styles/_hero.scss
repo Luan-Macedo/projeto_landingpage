@@ -1,0 +1,19 @@
+@use 'variaveis';
+
+.hero{
+    padding: 5.6vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(../../dist/images//vastidao_da_noite_banner2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+
+    &__conteudo{
+        color: variaveis.$corDoTexto;
+
+        h1{
+            transition: ease 0.5s;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+@use 'variaveis';
+
+.sobre{
+    background: linear-gradient(#000, #262523);
+    padding: 5.6vw;
+    min-height: 80vh;
+
+    h1{
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 30px;
+    }
+    
+    &__conteudo{
+        max-width: 1024px;
+        margin: 36px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &__imagem{
+            max-width: 500px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        &__item{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__trailer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                margin: 40px 0;
+                font-size: 50px;
+            }
+
+            iframe{
+                border-radius: 10px;
+            }
+        }
+    }
+
+    &__lista{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+            &__item{
+                margin-top: 36px;
+                font-size: 22px;
+                
+
+                &:nth-child(2), &:nth-child(3), &:nth-child(4){
+                    margin-left: 16px;
+                }
+
+                &:last-child{
+                    padding: 6px;
+                    border: 1px solid yellow;
+                    background-color: yellow;
+                    border-radius: 8px;
+                }
+            }
+    }
+
+    &__genero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+
+        &__item{
+            font-size: 22px;
+            padding: 8px;
+            border: 1px solid #fff;
+            border-radius: 12px;
+
+            &:nth-child(2){
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.rotten-tomatoes{
+    display: flex;
+    align-items: center;
+    
+    img{
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+}

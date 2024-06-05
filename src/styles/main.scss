@@ -1,0 +1,43 @@
+@use 'variaveis';
+@use 'hero';
+@use 'sobre';
+@use 'header';
+
+@font-face {
+    font-family: Air Americana;
+    src: url(../../assets/fonts/air-americana.demo-bold-italic.ttf);
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: variaveis.$corDeFundo;
+    font-family: Air Americana, sans-serif;
+    color: variaveis.$corDoTexto;
+}
+
+.title{
+    text-shadow: 0 0 10px;
+
+    &--small{
+        font-size: 70px;
+        margin-right: 20px;
+    }
+
+    &--big{
+        font-size: 220px;
+    }
+}
+
+.texto{
+    font-family: sans-serif;
+    color: variaveis.$corDoTexto;
+    font-size: 22px;
+}
