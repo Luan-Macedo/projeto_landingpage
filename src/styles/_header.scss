@@ -4,15 +4,44 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: variaveis.$corDeFundo;
+    background-color: #000;
+
+    &--is-hidden{
+        background-color: transparent;
+
+        .header__links__item{
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
 
     &__container{
-        padding: 8px 36px;
+        max-width: 1500px;
+        width: 100%;
         display: flex;
         justify-content: right;
     }
 
     &__links{
         display: flex;
+
+        &__item{
+            margin-left: 20px;
+        }
+    }
+}
+
+.button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    font-size: 30px;
+    background: none;
+    color: #202020;
+
+    &:hover{
+        color: variaveis.$corDoTexto;
+        text-shadow: 0 0 5px variaveis.$corDoTexto, 0 0 2px variaveis.$corDoTexto;
     }
 }

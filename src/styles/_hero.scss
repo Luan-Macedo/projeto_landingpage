@@ -8,12 +8,5 @@
     background-repeat: no-repeat;
     text-align: center;
     align-content: center;
-
-    &__conteudo{
-        color: variaveis.$corDoTexto;
-
-        h1{
-            transition: ease 0.5s;
-        }
-    }
+    margin-top: -55px;
 }
