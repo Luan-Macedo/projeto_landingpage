@@ -1,0 +1,26 @@
+.onde-assistir{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#595439, #000);
+
+
+    h1{
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 30px;
+    }
+
+    &__link{
+        margin: 36px auto;
+
+        &__item{
+
+            img{
+                width: 150px;
+            }
+        }
+    }
+}

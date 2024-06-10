@@ -1,0 +1,26 @@
+.rodape{
+    padding: 40px;
+    background-color: #000;
+
+    &__conteudo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+
+        p{
+            font-family: sans-serif;
+            font-size: 28px;
+        }
+
+        img{
+            width: 40px;
+            height: 40px;
+            margin: 8px;
+        }
+    }
+}

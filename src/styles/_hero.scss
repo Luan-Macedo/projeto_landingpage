@@ -9,4 +9,11 @@
     text-align: center;
     align-content: center;
     margin-top: -55px;
+
+    &--fade{
+
+        .hero__conteudo{
+            opacity: 0;
+        }
+    }
 }

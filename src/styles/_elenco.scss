@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+.elenco{
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-color: #595439;
+
+    h1{
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 30px;
+    }
+
+    &__conteudo{
+        margin: 36px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__lista{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+
+        &__item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 260px;
+                height: 350px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

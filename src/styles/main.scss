@@ -2,6 +2,9 @@
 @use 'hero';
 @use 'sobre';
 @use 'header';
+@use 'elenco';
+@use 'ondeassistir';
+@use 'rodape';
 
 @font-face {
     font-family: Air Americana;
@@ -33,6 +36,17 @@ body{
 
     &--big{
         font-size: 220px;
+    }
+}
+
+.subtitle{
+    font-family: sans-serif;
+    font-size: 26px;
+
+    &__small{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: #83898f;
     }
 }
 
