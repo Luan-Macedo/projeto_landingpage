@@ -3,11 +3,11 @@
 .elenco{
     padding: 5.6vw;
     min-height: 80vh;
-    background-color: #595439;
+    background-color: variaveis.$corDeFundo;
 
     h1{
         text-align: center;
-        font-size: 80px;
+        font-size: 60px;
         padding-bottom: 30px;
     }
 
@@ -23,6 +23,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 40px;
+
+        &:nth-child(2){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 40px;
+        }
 
         &__item{
             display: flex;

@@ -5,15 +5,9 @@
     min-height: 100vh;
     background-size: cover;
     background-image: url(../../dist/images//vastidao_da_noite_banner2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     align-content: center;
-    margin-top: -55px;
-
-    &--fade{
-
-        .hero__conteudo{
-            opacity: 0;
-        }
-    }
+    margin-top: -86px;
 }

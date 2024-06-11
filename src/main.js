@@ -23,3 +23,23 @@ function exibeHeader(){
     const header = document.querySelector('header');
     header.classList.remove('header--is-hidden');
 }
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting){
+            entry.target.classList.add('show')
+        } else{
+            entry.target.classList.remove('show')
+        }
+    })
+    
+    
+})
+
+const hidden = document.querySelector('.hidden');
+
+observer.observe(hidden)
+
+
+
+

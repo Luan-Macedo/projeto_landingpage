@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+.avaliacao{
+    padding: 10px 40px 60px 40px;
+    min-height: 80vh;
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+
+    
+    &__conteudo{
+        padding: 30px;
+        max-width: 1024px;
+        margin: 36px auto;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, .3);
+        
+        h3{
+            font-family: sans-serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        
+    }
+    
+}
+
+.nota{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+    img{
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
