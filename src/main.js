@@ -32,8 +32,6 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('show')
         }
     })
-    
-    
 })
 
 const hidden = document.querySelector('.hidden');

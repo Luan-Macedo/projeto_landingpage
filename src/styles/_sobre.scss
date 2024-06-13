@@ -42,6 +42,8 @@
             }
 
             iframe{
+                width: 560px;
+                height: 315px;
                 border-radius: 10px;
             }
         }
@@ -97,5 +99,54 @@
         margin-right: 10px;
         height: 50px;
         width: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .sobre{
+
+        h1{
+            text-align: center;
+            font-size: 30px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+    
+        &__conteudo{
+            display: block;
+            text-align: center;
+    
+            &__imagem{
+                max-width: 300px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+            }
+
+            &__item{
+                padding-left: 0;
+            }
+
+            &__trailer{
+
+                h2{
+                    padding-top: 20px;
+                    font-size: 30px;
+                }
+
+                iframe{
+                    width: 350px;
+                    height: 196px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        &__lista{
+
+            &__item{
+                font-size: 18px;
+            }
+        }
     }
 }

@@ -56,6 +56,25 @@ body{
     font-size: 22px;
 }
 
+@media screen and (max-width: 768px){
+    .texto{
+        font-family: sans-serif;
+        color: variaveis.$corDoTexto;
+        font-size: 18px;
+    }
+
+    .title{
+        &--small{
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        &--big{
+            font-size: 70px;
+        }
+    }
+}
+
 .hidden{
     opacity: 0;
     filter: blur(15px);

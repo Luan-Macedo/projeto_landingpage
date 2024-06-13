@@ -1,7 +1,7 @@
 @use 'variaveis';
 
 .avaliacao{
-    padding: 10px 40px 60px 40px;
+    padding: 5.6vw;
     min-height: 80vh;
 
     h1{
@@ -43,4 +43,35 @@
         width: 20px;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .avaliacao{
+
+        h1{
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+
+        &__conteudo{
+
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+
+    .nota{
+        font-size: 18px;
+        
+        img{
+            margin-right: 10px;
+            height: 18px;
+            width: 18px;
+        }
+    }
+}
+
+
+
 

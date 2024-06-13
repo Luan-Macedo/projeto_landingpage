@@ -10,4 +10,11 @@
     text-align: center;
     align-content: center;
     margin-top: -86px;
+
+    @media (max-width: 768px){
+        min-height: 50vh;
+        background-position: -300px;
+    }
 }
+
+

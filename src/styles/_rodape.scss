@@ -24,3 +24,19 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .rodape{
+        padding: 20px;
+
+        p{
+            font-size: 20px;
+        }
+
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

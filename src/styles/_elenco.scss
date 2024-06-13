@@ -8,7 +8,7 @@
     h1{
         text-align: center;
         font-size: 60px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     &__conteudo{
@@ -42,6 +42,39 @@
                 border-radius: 8px;
                 margin-bottom: 20px;
                 margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .elenco{
+
+        h1{
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+
+        &__conteudo{
+            display: block;
+        }
+
+        &__lista{
+            display: block;
+
+            &:nth-child(2){
+                display: block;
+                margin-top: 0;
+            }
+
+            &__item{
+                margin-bottom: 20px;
+
+                img{
+                    width: 220px;
+                    height: 300px;
+                }
             }
         }
     }

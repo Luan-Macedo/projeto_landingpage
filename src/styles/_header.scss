@@ -20,6 +20,11 @@
         padding: 8px 36px;
         display: flex;
         justify-content: right;
+
+        @media (max-width: 768px){
+            padding: 8px 16px;
+            justify-content: center;
+        }
     }
 
     &__link{
@@ -51,4 +56,9 @@
         background-color: variaveis.$corDoTexto;
         color: rgba(0, 0, 0, 0.8);
     }
+
+    @media (max-width: 768px){
+        font-size: 24px;
+    }
 }
+
