@@ -102,6 +102,38 @@
     }
 }
 
+@media screen and (max-width: 1180px){
+
+    .sobre{
+        min-height: 10vh;
+
+        &__conteudo{
+            display: block;
+            text-align: center;
+
+            &__imagem{
+                max-width: 450px;
+                margin-right: 0px;
+                margin-bottom: 30px;
+            }
+
+            &__trailer{
+
+                h2{
+                    padding-top: 20px;
+                    font-size: 30px;
+                }
+
+                iframe{
+                    width: 400px;
+                    height: 220px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px){
 
     .sobre{

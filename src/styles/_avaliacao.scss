@@ -4,6 +4,10 @@
     padding: 5.6vw;
     min-height: 80vh;
 
+    @media (max-width: 1180px){
+        min-height: 10vh;
+    }
+
     h1{
         text-align: center;
         font-size: 60px;

@@ -11,6 +11,11 @@
     align-content: center;
     margin-top: -86px;
 
+    @media (max-width: 1180px){
+        min-height: 70vh;
+        background-position: -600px;
+    }
+
     @media (max-width: 768px){
         min-height: 50vh;
         background-position: -300px;
